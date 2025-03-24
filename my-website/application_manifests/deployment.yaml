@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-website
-        image: europe-west1-docker.pkg.dev/luminy-385107/docusaurus/my-website:latest
+        image: docker.io/library/hello-world
         ports:
         - containerPort: 80
